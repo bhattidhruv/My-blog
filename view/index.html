@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../cssStyling/css_Style.css" />
+   
+</head>
+<body onload="showSlides(0)">
+
+    <header>
+        <div class = "homeBanner">
+            <img class="responsive" src="../images/Homepage_Banner.png" />
+        </div>
+    </header>
+
+    <nav class="navBar">
+
+        <ul class="navBar-nav">
+            <li class="navBar-Item">
+                <a href="home.html">Home</a>
+            </li>
+            <li class="navBar-Item">
+                <a href="about.html">About</a>
+            </li>
+            <li class="navBar-Item">
+                <a href="resume.html">Time Line</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <section>
+        <div class="container">
+            <h1>
+                Little about my self
+            </h1>
+            <article>
+                I grew up in Mumbai ,India basically New York of the Unites States. Growing up I always wanted  to design and build robots.
+                I graduated with a bachelors in electronic and telecommunications engineering. I was part of Entrepreneurship cell and worked 
+                on multiple projects through out colleg and helped my mother build her YOUTUBE channel.
+                I enjoyed the creative and business aspect of helping her.
+                Later, I left for Syracuse for grad school and am currently finishing up my first year in Masters of Computer Engineering.
+            </article>
+
+        </div>
+
+        <div class="Container">
+            <div id="slideShow">
+                
+                <div class="displaySlide">
+                    <img src="../images/Slide1.png" />
+                </div>
+                <div class="displaySlide">
+                    <img src="../images/Slide2.png"  />
+                </div>
+                <div class="displaySlide">
+                    <img src="../images/Slide3.png" />
+                </div>
+                <div class="displaySlide">
+                    <img src="../images/Slide4.png"  />
+                </div>
+                <div class="displaySlide">
+                    <img src="../images/Slide5.png" />
+                </div>
+                <div class="displaySlide">
+                    <img src="../images/Slide6.png" />
+                </div>
+                
+                <button onclick="changeSlide(-1)">Previous</button> ||
+                <button onclick="changeSlide(1)">Next</button>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+   
+    <footer>
+        <p>Something here</p>
+    </footer>
+
+</body>
+</html>

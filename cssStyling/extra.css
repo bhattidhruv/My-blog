@@ -1,0 +1,68 @@
+.item1 {
+    grid-area: photo;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+}
+
+.item2 {
+    grid-area: Navbar;
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}
+
+.item3 {
+    grid-area: main;
+    grid-column: 1 / span 4;
+    grid-row: 4;
+}
+
+.item4 {
+    grid-area: footer;
+    grid-column: 1 / span 4;
+    grid-row: 5;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto 5%;
+
+    grid-template-areas: 'photo photo photo photot'
+                         'photo photo photo photot'
+                        'Navbar Navbar Navbar Navbar'
+                        'main main main main'
+                        'footer footer footer footer';
+    grid-gap: 0px;
+    background-color: #2196F3;
+    padding: 0px;
+}
+
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}

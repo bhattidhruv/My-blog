@@ -1,0 +1,88 @@
+:root{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --nav-bg-primary: #ffc46b;
+    --transition-speed: 600ms;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Scrool bar on the webpage*/
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+
+/* Nav 
+#nav{
+    background-color: var(--nav-bg-primary);
+    align-items: center;
+}
+
+.navBar{
+    
+    width: 600px;
+    
+}
+.navBar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.navBar-Item{
+    display: block;
+    width: 80px;
+    
+}
+
+*/
+
+
+
+  /* For Home page banner image */
+.homeBanner{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+img.responsive {
+    height: auto;
+    width: 600px;
+}
+
+/* container and slide show @homepage */
+.displaySlideButton{
+    display: flex;
+    justify-content: center;
+}
+.displaySlide{
+    display: flex;
+    justify-content: center;
+}
+
